@@ -65,7 +65,9 @@ ol li{
 	counter-increment: my-counter;
 }
 ol.Completed li{
-	background: #00ff62;
+	background: #7ab37e;
+	color: #fff;
+	text-decoration: line-through;
 }
 ol li::before{
 	content: counter(my-counter);
