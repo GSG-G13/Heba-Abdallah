@@ -11,6 +11,8 @@ let arrayOfTasks = [];
 // Check if Theres Tasks In Local Storage
 if (localStorage.getItem("tasks")) {
   arrayOfTasks = JSON.parse(localStorage.getItem("tasks"));
+
+  
 }
 
 // Trigger Get Data From Local Storage Function
